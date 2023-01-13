@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+}
+.title-and-stared-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.unfilled-button {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  color: #8b5cf6;
+  border-color: #8b5cf6;
+  padding: 5px;
+}
+
+.filled-button {
+  background-color: #8b5cf6;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  color: #ffffff;
+  border-color: #8b5cf6;
+  padding: 5px;
+}
+.ul {
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
